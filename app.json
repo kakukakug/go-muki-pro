@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "app Name",
+    "slug": "name-001-app",
+    "privacy": "unlisted",
+    "platforms": ["ios", "android"],
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "primaryColor": "#FFFFFF",
+    "icon": "./src/04_external/assets/images/icon.png",
+    "splash": {
+      "image": "./src/04_external/assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 3000
+    },
+    "ios": {
+      "bundleIdentifier": "com.name.template",
+      "buildNumber": "1.0.1",
+      "icon": "./src/04_external/assets/images/icon_ios.png",
+      "splash": {
+        "backgroundColor": "#FFFFFF",
+        "image": "./src/04_external/assets/images/splash.png"
+      },
+      "config": {
+        "googleMobileAdsAppId": ""
+      },
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "「許可」することで表示される広告がユーザーに最適化された内容になります。許可しなくても引き続きアプリは利用できます。",
+        "SKAdNetworkIdentifier": "cstr6suwn9.skadnetwork"
+      }
+    },
+    "android": {
+      "package": "com.name.tmplate",
+      "permissions": [],
+      "versionCode": 1,
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.honmushi.template-app",
+      "adaptiveIcon": {
+        "foregroundImage": "./src/04_external/assets/images/foreground.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "config": {
+        "googleMobileAdsAppId": ""
+      },
+      "googleServicesFile": "./google-services.json"
+    },
+    "plugins": ["expo-tracking-transparency", "expo-splash-screen"]
+  }
+}

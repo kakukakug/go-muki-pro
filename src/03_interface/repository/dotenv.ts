@@ -1,0 +1,25 @@
+import {
+  ANDROID_BANNER_AD_UNIT_ID,
+  ANDROID_INTERSTITIAL_AD_UNIT_ID,
+  IOS_BANNER_AD_UNIT_ID,
+  IOS_INTERSTITIAL_AD_UNIT_ID,
+} from "@env";
+
+import { IDotenvRepository } from "../../02_usecase/repository/dotenv";
+
+export class DotenvRepository implements IDotenvRepository {
+  ANDROID_BANNER_AD_UNIT_ID: string;
+
+  ANDROID_INTERSTITIAL_AD_UNIT_ID: string;
+
+  IOS_BANNER_AD_UNIT_ID: string;
+
+  IOS_INTERSTITIAL_AD_UNIT_ID: string;
+
+  constructor() {
+    this.ANDROID_BANNER_AD_UNIT_ID = ANDROID_BANNER_AD_UNIT_ID;
+    this.ANDROID_INTERSTITIAL_AD_UNIT_ID = ANDROID_INTERSTITIAL_AD_UNIT_ID;
+    this.IOS_BANNER_AD_UNIT_ID = IOS_BANNER_AD_UNIT_ID;
+    this.IOS_INTERSTITIAL_AD_UNIT_ID = IOS_INTERSTITIAL_AD_UNIT_ID;
+  }
+}

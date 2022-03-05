@@ -1,0 +1,41 @@
+{
+  "extends": ["config:base"],
+  "timezone": "Asia/Tokyo",
+  "dependencyDashboard": true,
+  "labels": ["dependencies", "renovate"],
+  "pin": {
+    "automerge": true
+  },
+  "packageRules": [
+    {
+      "packagePatterns": ["^@types/"],
+      "automerge": true,
+      "major": {
+        "automerge": false
+      }
+    },
+    {
+      "groupName": "jest",
+      "sourceUrlPrefixes": [
+        "https://github.com/facebook/jest",
+        "https://github.com/kulshekhar/ts-jest"
+      ]
+    },
+    {
+      "groupName": "linters",
+      "extends": ["packages:linters"],
+      "packageNames": ["prettier"],
+      "packagePatterns": ["^@typescript-eslint/"]
+    },
+    {
+      "groupName": "fix-react",
+      "packageNames": ["react", "react-native", "@types/react-native"],
+      "major": {
+        "enabled": false
+      },
+      "minor": {
+        "enabled": false
+      }
+    }
+  ]
+}

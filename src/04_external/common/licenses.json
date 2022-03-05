@@ -1,0 +1,303 @@
+[
+  {
+    "id": 0,
+    "name": "@expo/vector-icons",
+    "version": "12.0.5",
+    "license": "MIT License (MIT)",
+    "repository": "git+https://github.com/expo/vector-icons.git",
+    "author": "Brent Vatne",
+    "homepage": "https://expo.github.io/vector-icons",
+    "dependencyLevel": "production"
+  },
+  {
+    "id": 1,
+    "name": "@react-native-async-storage/async-storage",
+    "version": "1.15.8",
+    "license": "MIT License (MIT)",
+    "repository": "git+https://github.com/react-native-async-storage/async-storage.git",
+    "author": "Krzysztof Borowy",
+    "homepage": "https://github.com/react-native-async-storage/async-storage#readme",
+    "dependencyLevel": "production"
+  },
+  {
+    "id": 2,
+    "name": "@react-navigation/bottom-tabs",
+    "version": "6.0.5",
+    "license": "MIT License (MIT)",
+    "repository": "git+https://github.com/react-navigation/react-navigation.git",
+    "homepage": "https://github.com/react-navigation/react-navigation#readme",
+    "dependencyLevel": "production"
+  },
+  {
+    "id": 3,
+    "name": "@react-navigation/drawer",
+    "version": "6.1.4",
+    "license": "MIT License (MIT)",
+    "repository": "git+https://github.com/react-navigation/react-navigation.git",
+    "homepage": "https://reactnavigation.org/docs/drawer-navigator/",
+    "dependencyLevel": "production"
+  },
+  {
+    "id": 4,
+    "name": "@react-navigation/native",
+    "version": "6.0.2",
+    "license": "MIT License (MIT)",
+    "repository": "git+https://github.com/react-navigation/react-navigation.git",
+    "homepage": "https://reactnavigation.org",
+    "dependencyLevel": "production"
+  },
+  {
+    "id": 5,
+    "name": "@react-navigation/stack",
+    "version": "6.0.7",
+    "license": "MIT License (MIT)",
+    "repository": "git+https://github.com/react-navigation/react-navigation.git",
+    "homepage": "https://reactnavigation.org/docs/stack-navigator/",
+    "dependencyLevel": "production"
+  },
+  {
+    "id": 6,
+    "name": "@reduxjs/toolkit",
+    "version": "1.6.1",
+    "license": "MIT License (MIT)",
+    "repository": "git+https://github.com/reduxjs/redux-toolkit.git",
+    "author": "Mark Erikson",
+    "homepage": "https://redux-toolkit.js.org",
+    "dependencyLevel": "production"
+  },
+  {
+    "id": 7,
+    "name": "expo",
+    "version": "42.0.3",
+    "license": "MIT License (MIT)",
+    "repository": "git+https://github.com/expo/expo.git",
+    "author": "Expo",
+    "homepage": "https://github.com/expo/expo/tree/master/packages/expo",
+    "dependencyLevel": "production"
+  },
+  {
+    "id": 8,
+    "name": "expo-ads-admob",
+    "version": "10.1.2",
+    "license": "MIT License (MIT)",
+    "repository": "git+https://github.com/expo/expo.git",
+    "author": "650 Industries, Inc.",
+    "homepage": "https://docs.expo.io/versions/latest/sdk/admob/",
+    "dependencyLevel": "production"
+  },
+  {
+    "id": 9,
+    "name": "expo-app-loading",
+    "version": "1.1.2",
+    "license": "MIT License (MIT)",
+    "repository": "git+https://github.com/expo/expo.git",
+    "author": "650 Industries, Inc.",
+    "homepage": "https://docs.expo.io/versions/latest/sdk/app-loading",
+    "dependencyLevel": "production"
+  },
+  {
+    "id": 10,
+    "name": "expo-constants",
+    "version": "11.0.2",
+    "license": "MIT License (MIT)",
+    "repository": "git+https://github.com/expo/expo.git",
+    "author": "650 Industries, Inc.",
+    "homepage": "https://docs.expo.io/versions/latest/sdk/constants/",
+    "dependencyLevel": "production"
+  },
+  {
+    "id": 11,
+    "name": "expo-firebase-analytics",
+    "version": "4.1.0",
+    "license": "MIT License (MIT)",
+    "repository": "git+https://github.com/expo/expo.git",
+    "author": "650 Industries, Inc.",
+    "homepage": "https://docs.expo.io/versions/latest/sdk/firebase-analytics/",
+    "dependencyLevel": "production"
+  },
+  {
+    "id": 12,
+    "name": "expo-font",
+    "version": "9.2.1",
+    "license": "MIT License (MIT)",
+    "repository": "git+https://github.com/expo/expo.git",
+    "author": "650 Industries, Inc.",
+    "homepage": "https://docs.expo.io/versions/latest/sdk/font/",
+    "dependencyLevel": "production"
+  },
+  {
+    "id": 13,
+    "name": "expo-linking",
+    "version": "2.3.1",
+    "license": "MIT License (MIT)",
+    "repository": "git+https://github.com/expo/expo.git",
+    "author": "650 Industries, Inc.",
+    "homepage": "https://docs.expo.io/versions/latest/sdk/linking",
+    "dependencyLevel": "production"
+  },
+  {
+    "id": 14,
+    "name": "expo-localization",
+    "version": "10.2.0",
+    "license": "MIT License (MIT)",
+    "repository": "git+https://github.com/expo/expo.git",
+    "author": "650 Industries, Inc.",
+    "homepage": "https://docs.expo.io/versions/latest/sdk/localization/",
+    "dependencyLevel": "production"
+  },
+  {
+    "id": 15,
+    "name": "expo-splash-screen",
+    "version": "0.11.4",
+    "license": "MIT License (MIT)",
+    "repository": "git+https://github.com/expo/expo.git",
+    "author": "650 Industries, Inc.",
+    "homepage": "https://docs.expo.io/versions/latest/sdk/splash-screen/",
+    "dependencyLevel": "production"
+  },
+  {
+    "id": 16,
+    "name": "expo-store-review",
+    "version": "4.1.0",
+    "license": "MIT License (MIT)",
+    "repository": "git+https://github.com/expo/expo.git",
+    "author": "650 Industries, Inc.",
+    "homepage": "https://docs.expo.io/versions/latest/sdk/storereview/",
+    "dependencyLevel": "production"
+  },
+  {
+    "id": 17,
+    "name": "expo-tracking-transparency",
+    "version": "1.1.2",
+    "license": "MIT License (MIT)",
+    "repository": "git+https://github.com/expo/expo.git",
+    "author": "650 Industries, Inc.",
+    "homepage": "https://docs.expo.io/versions/latest/sdk/module-template",
+    "dependencyLevel": "production"
+  },
+  {
+    "id": 18,
+    "name": "expo-web-browser",
+    "version": "9.2.0",
+    "license": "MIT License (MIT)",
+    "repository": "git+https://github.com/expo/expo.git",
+    "author": "650 Industries, Inc.",
+    "homepage": "https://docs.expo.io/versions/latest/sdk/webbrowser/",
+    "dependencyLevel": "production"
+  },
+  {
+    "id": 19,
+    "name": "i18n-js",
+    "version": "3.8.0",
+    "license": "MIT License (MIT)",
+    "repository": "git+https://github.com/fnando/i18n-js.git",
+    "author": "Nando Vieira",
+    "homepage": "https://github.com/fnando/i18n-js",
+    "dependencyLevel": "production"
+  },
+  {
+    "id": 20,
+    "name": "react",
+    "version": "16.13.1",
+    "license": "MIT License (MIT)",
+    "repository": "git+https://github.com/facebook/react.git",
+    "homepage": "https://reactjs.org/",
+    "dependencyLevel": "production"
+  },
+  {
+    "id": 21,
+    "name": "react-dom",
+    "version": "16.13.1",
+    "license": "MIT License (MIT)",
+    "repository": "git+https://github.com/facebook/react.git",
+    "homepage": "https://reactjs.org/",
+    "dependencyLevel": "production"
+  },
+  {
+    "id": 22,
+    "name": "react-native",
+    "version": "0.63.2",
+    "license": "MIT License (MIT)",
+    "repository": "git+ssh://git@github.com/facebook/react-native.git",
+    "homepage": "https://github.com/facebook/react-native#readme",
+    "dependencyLevel": "production"
+  },
+  {
+    "id": 23,
+    "name": "react-native-dotenv",
+    "version": "3.2.0",
+    "license": "MIT License (MIT)",
+    "repository": "git+https://github.com/goatandsheep/react-native-dotenv.git",
+    "author": "Kemal Ahmed",
+    "homepage": "https://github.com/goatandsheep/react-native-dotenv",
+    "dependencyLevel": "production"
+  },
+  {
+    "id": 24,
+    "name": "react-native-gesture-handler",
+    "version": "1.10.3",
+    "license": "MIT License (MIT)",
+    "repository": "git+https://github.com/software-mansion/react-native-gesture-handler.git",
+    "author": "Krzysztof Magiera",
+    "homepage": "https://github.com/software-mansion/react-native-gesture-handler#readme",
+    "dependencyLevel": "production"
+  },
+  {
+    "id": 25,
+    "name": "react-native-paper",
+    "version": "4.9.2",
+    "license": "MIT License (MIT)",
+    "repository": "git+https://github.com/callstack/react-native-paper.git",
+    "homepage": "https://callstack.github.io/react-native-paper",
+    "dependencyLevel": "production"
+  },
+  {
+    "id": 26,
+    "name": "react-native-reanimated",
+    "version": "2.2.1",
+    "license": "MIT License (MIT)",
+    "repository": "git+https://github.com/software-mansion/react-native-reanimated.git",
+    "author": "Krzysztof Magiera",
+    "homepage": "https://github.com/software-mansion/react-native-reanimated#readme",
+    "dependencyLevel": "production"
+  },
+  {
+    "id": 27,
+    "name": "react-native-safe-area-context",
+    "version": "3.2.0",
+    "license": "MIT License (MIT)",
+    "repository": "git+https://github.com/th3rdwave/react-native-safe-area-context.git",
+    "author": "Janic Duplessis",
+    "homepage": "https://github.com/th3rdwave/react-native-safe-area-context#readme",
+    "dependencyLevel": "production"
+  },
+  {
+    "id": 28,
+    "name": "react-native-screens",
+    "version": "3.7.2",
+    "license": "MIT License (MIT)",
+    "repository": "git+https://github.com/software-mansion/react-native-screens.git",
+    "author": "Krzysztof Magiera",
+    "homepage": "https://github.com/software-mansion/react-native-screens#readme",
+    "dependencyLevel": "production"
+  },
+  {
+    "id": 29,
+    "name": "react-redux",
+    "version": "7.2.5",
+    "license": "MIT License (MIT)",
+    "repository": "git+https://github.com/reduxjs/react-redux.git",
+    "author": "Dan Abramov",
+    "homepage": "https://github.com/reduxjs/react-redux",
+    "dependencyLevel": "production"
+  },
+  {
+    "id": 30,
+    "name": "redux",
+    "version": "4.1.1",
+    "license": "MIT License (MIT)",
+    "repository": "git+https://github.com/reduxjs/redux.git",
+    "homepage": "http://redux.js.org",
+    "dependencyLevel": "production"
+  }
+]

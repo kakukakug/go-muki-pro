@@ -1,0 +1,23 @@
+# osX 
+.DS_Store
+
+# node 
+node_modules/
+npm-debug.*
+yarn-error.log
+
+# jest
+coverage
+
+# detox
+__artifacts__
+
+# expo 
+.expo/*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+bin/

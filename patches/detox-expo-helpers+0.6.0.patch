@@ -1,0 +1,13 @@
+diff --git a/node_modules/detox-expo-helpers/index.js b/node_modules/detox-expo-helpers/index.js
+index 864493b..5de0839 100644
+--- a/node_modules/detox-expo-helpers/index.js
++++ b/node_modules/detox-expo-helpers/index.js
+@@ -70,7 +70,7 @@ const reloadApp = async (params) => {
+     newInstance: true,
+     url,
+     sourceApp: 'host.exp.exponent',
+-    launchArgs: { EXKernelDisableNuxDefaultsKey: true, detoxURLBlacklistRegex: formattedBlacklistArg },
++    launchArgs: { EXKernelDisableNuxDefaultsKey: true, detoxURLBlacklistRegex: formattedBlacklistArg, detoxEnableSynchronization: 0 },
+   });
+ 
+ 
